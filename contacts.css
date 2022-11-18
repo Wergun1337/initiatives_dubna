@@ -1,0 +1,188 @@
+.contacts{
+	 padding-top: 150px;
+
+}
+
+.contacts__inner{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.contacts__tittle{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 60px;
+	color: #292935;
+	margin-bottom: 60px;
+}
+
+.secondColumn{
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	margin-top: 110px;
+}
+
+.contacts__number{
+	font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 60px;
+/* identical to box height, or 120% */
+
+
+/* black */
+
+color: #292935;
+}
+
+.contacts__mail{
+	margin-top: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+/* black */
+
+color: #292935;
+}
+
+.contacts__adres{
+	font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+/* black */
+
+color: #292935;
+
+}
+
+.form__input{
+	padding-left: 20px;
+	margin-bottom: 15px;
+	width: 488px;
+	height: 60px;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	box-sizing: border-box;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #97A4B9;
+
+}
+
+.input__text{
+	width: 488px;
+	height: 120px;
+	padding-bottom: 69px;
+	padding-right: 20px;
+
+}
+
+form{
+	margin-bottom: 265px;
+}
+
+textarea{
+	outline: none;
+	resize: none;
+	overflow: auto;
+}
+$('textarea').autoresize();
+
+
+.btn_contacts{
+	margin-top: 100px;
+}
+
+.footer{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 360px 60px;
+
+position: absolute;
+width: 1920px;
+height: 162px;
+left: 0px;
+top: 940px;
+
+/* black */
+
+background: #292935;
+}
+
+.p4{
+	position: absolute;
+left: 18.75%;
+right: 67.03%;
+top: 24.69%;
+bottom: 61.73%;
+
+/* body/16 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+/* white */
+
+color: #FFFFFF;
+}
+
+
+.p5{
+
+	position: absolute;
+left: 18.75%;
+right: 72.66%;
+top: 50.62%;
+bottom: 37.04%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+.contacts__send_tit{
+	font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 25px;
+/* identical to box height, or 114% */
+
+
+/* black */
+
+color: #292935;
+margin-bottom: 25px;
+}
+
+.btn_contacts_sends{
+	margin-top: 40px;
+}
